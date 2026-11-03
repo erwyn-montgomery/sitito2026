@@ -1,0 +1,61 @@
+{
+  "version": "canonical-descriptions-v1",
+  "fake_news": {
+    "labels": ["false", "true"],
+    "definitions": {
+      "false": "fake news containing fabricated or misleading reporting",
+      "true": "real news containing legitimate and truthful reporting"
+    },
+    "template": "This article is {definition}."
+  },
+  "yahoo": {
+    "labels": ["Society and Culture", "Science and Mathematics", "Health", "Education and Reference", "Computers and Internet", "Sports", "Business and Finance", "Entertainment and Music", "Family and Relationships", "Politics and Government"],
+    "definitions": {
+      "Society and Culture": "society, culture, customs, beliefs, and social life",
+      "Science and Mathematics": "science, scientific explanations, or mathematics",
+      "Health": "health, illness, medicine, or personal well-being",
+      "Education and Reference": "education, learning, reference information, or schooling",
+      "Computers and Internet": "computers, software, online services, or the Internet",
+      "Sports": "sports, athletic activities, teams, or sporting competitions",
+      "Business and Finance": "business, money, financial decisions, or commerce",
+      "Entertainment and Music": "entertainment, music, performers, or popular media",
+      "Family and Relationships": "family life, interpersonal relationships, or romantic relationships",
+      "Politics and Government": "politics, government, public institutions, or political decisions"
+    },
+    "template": "The question and answer are about {definition}."
+  },
+  "goemotions": {
+    "labels": ["admiration", "amusement", "anger", "annoyance", "approval", "caring", "confusion", "curiosity", "desire", "disappointment", "disapproval", "disgust", "embarrassment", "excitement", "fear", "gratitude", "grief", "joy", "love", "nervousness", "optimism", "pride", "realization", "relief", "remorse", "sadness", "surprise", "neutral"],
+    "definitions": {
+      "admiration": "Finding something impressive or worthy of respect.",
+      "amusement": "Finding something funny or being entertained.",
+      "anger": "A strong feeling of displeasure or antagonism.",
+      "annoyance": "Mild anger or irritation.",
+      "approval": "Having or expressing a favorable opinion.",
+      "caring": "Displaying kindness and concern for others.",
+      "confusion": "Lack of understanding or uncertainty.",
+      "curiosity": "A strong desire to know or learn something.",
+      "desire": "A strong feeling of wanting something or wishing for something to happen.",
+      "disappointment": "Sadness or displeasure caused by the nonfulfillment of hopes or expectations.",
+      "disapproval": "Having or expressing an unfavorable opinion.",
+      "disgust": "Revulsion or strong disapproval aroused by something unpleasant or offensive.",
+      "embarrassment": "Self-consciousness, shame, or awkwardness.",
+      "excitement": "A feeling of great enthusiasm and eagerness.",
+      "fear": "Being afraid or worried.",
+      "gratitude": "A feeling of thankfulness and appreciation.",
+      "grief": "Intense sorrow, especially caused by someone’s death.",
+      "joy": "A feeling of pleasure and happiness.",
+      "love": "A strong positive emotion of regard and affection.",
+      "nervousness": "Apprehension, worry, or anxiety.",
+      "optimism": "Hopefulness and confidence about the future or the success of something.",
+      "pride": "Pleasure or satisfaction due to one’s own achievements or those of closely associated people.",
+      "realization": "Becoming aware of something.",
+      "relief": "Reassurance and relaxation following release from anxiety or distress.",
+      "remorse": "Regret or a guilty feeling.",
+      "sadness": "Emotional pain or sorrow.",
+      "surprise": "Feeling astonished or startled by something unexpected.",
+      "neutral": "No emotion is clearly expressed."
+    },
+    "template": "The comment expresses {label}. {definition}"
+  }
+}

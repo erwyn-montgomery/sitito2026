@@ -1,0 +1,10 @@
+Модель,Корпус,Однодокументная классификация: Macro-F1,Однодокументная классификация: всего токенов
+Qwen3.5-4B,Fake News,0.87493,2221182
+Qwen3.5-4B,Yahoo! Answers,0.70667,750931
+Qwen3.5-4B,GoEmotions,0.33464,738721
+Ministral3-3B,Fake News,0.86610,2241302
+Ministral3-3B,Yahoo! Answers,0.65604,744485
+Ministral3-3B,GoEmotions,0.23570,695284
+Gemma4-E4B-IT,Fake News,0.85351,2239383
+Gemma4-E4B-IT,Yahoo! Answers,0.74245,756698
+Gemma4-E4B-IT,GoEmotions,0.32775,727067
